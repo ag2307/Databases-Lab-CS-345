@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+* {
+    box-sizing: border-box;
+  }
+
+/* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+/* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column" style="text-align:center">
+    <h2>Query-1</h2> 
+    <p>Given an author name, display all tweets posted by that author sorted by
+decreasing order of date and time</p> 
+    <form class="form-inline" method="POST">
+      <div class="input-group">
+        <input type="text" name="textbox1" class="form-control" size="50" placeholder="Author Name">
+        <div class="input-group-btn">
+          <input type="submit" name="submit" value="answer1" class="btn btn-danger">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="column" style="text-align:center">
+    <h2>Query-2</h2> 
+    <p>Given a keyword, retrieve the tweets containing the keyword and sort them
+by their popularity in decreasing order</p> 
+    <form class="form-inline" method="POST">
+      <div class="input-group">
+        <input type="text" name="textbox2" class="form-control" size="50" placeholder="Keyword" >
+        <div class="input-group-btn">
+          <input type="submit" name="submit" value="answer2" class="btn btn-danger" >Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="text-align:center">
+    <h2>Query-3</h2> 
+    <p>Given a hashtag, retrieve all tweets containing the hashtag and sort them in
+decreasing order of date and time</p> 
+    <form class="form-inline" method="POST">
+      <div class="input-group">
+        <input type="text" name="textbox3" class="form-control" size="50" placeholder="Hashtag"  >
+        <div class="input-group-btn">
+          <input type="submit" name="submit" value="answer3" class="btn btn-danger" >Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="column" style="text-align:center">
+    <h2>Query-4</h2> 
+    <p>Given an author name, retrieve all tweets that mentions the author. Sort them
+in decreasing order of date and time</p> 
+    <form class="form-inline" method="POST">
+      <div class="input-group">
+        <input type="text" name="textbox4" class="form-control" size="50" placeholder="Author Screen Name"  >
+        <div class="input-group-btn">
+          <input type="submit" name="submit" value="answer4" class="btn btn-danger" >Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="text-align:center">
+    <h2>Query-5</h2> 
+    <p>Retrieve all tweets of a particular date sorted in decreasing order of their
+popularity</p> 
+    <form class="form-inline" method="POST">
+      <div class="input-group">
+        <input type="text" name="textbox5" class="form-control" size="50" placeholder="Date (Format: yyyy-mm-dd)"  >
+        <div class="input-group-btn">
+          <input type="submit" name="submit" value="answer5" class="btn btn-danger" >Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="column" style="text-align:center">
+    <h2>Query-6</h2> 
+    <p>Retrieve all tweets from a given location</p> 
+    <form class="form-inline" method="POST">
+      <div class="input-group">
+        <input type="text" name="textbox6" class="form-control" size="50" placeholder="Location"  >
+        <div class="input-group-btn">
+          <input type="submit" name="submit" value="answer6" class="btn btn-danger" >Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="text-align:center">
+    <h2>Query-7</h2> 
+    <p>Given a date, retrieve top 20 popular hashtags over the last 7 days</p> 
+    <form class="form-inline" method="POST">
+      <div class="input-group">
+        <input type="text" name="textbox7" class="form-control" size="50" placeholder="Date (Format: yyyy-mm-dd)"  >
+        <div class="input-group-btn">
+          <input type="submit" name="submit" value="answer7" class="btn btn-danger" >Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="column" style="text-align:center">
+    <h2>Query-8</h2> 
+    <p>Given a date, delete all tweets posted on that day</p> 
+    <form class="form-inline" method="POST">
+      <div class="input-group">
+        <input type="text" name="textbox8" class="form-control" size="50" placeholder="Date (Format: yyyy-mm-dd)"  >
+        <div class="input-group-btn">
+          <input type="submit" name="submit" value="answer8" class="btn btn-danger" >Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

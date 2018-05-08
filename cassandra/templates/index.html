@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container" style="text-align:center">
+  <h2>Query-1</h2> 
+  <p>Given a date 2018-01-15, find all active userIDs on that date. An user is said
+to be active on a given data if he has posted a tweet on that date. Sort the
+userIDs in decreasing order of frequency.</p> 
+  <form class="form-inline" method="POST">
+    <div class="input-group">
+      <input type="text" name="textbox1" class="form-control" size="50" placeholder="Date">
+      <div class="input-group-btn">
+        <input type="submit" name="submit" value="answer1" class="btn btn-danger">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="container" style="text-align:center">
+  <h2>Query-2</h2> 
+  <p>Given a date, 2018-01-15 find all co-occurring mention-hashtag pairs. A
+mention and hashtag is said to be a co-occurring pair if they co-appear in the
+same tweet. Sort your output in decreasing order of frequency</p> 
+  <form class="form-inline" method="POST">
+    <div class="input-group">
+      <input type="text" name="textbox2" class="form-control" size="50" placeholder="Date" >
+      <div class="input-group-btn">
+        <input type="submit" name="submit" value="answer2" class="btn btn-danger" >Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
