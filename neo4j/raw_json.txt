@@ -1,0 +1,7 @@
+JSON  for query-1
+
+[{"count": 25, "User_Mention": "narendramodi", "User_Mentioning_User_Mention": "sonali_ck"}, {"count": 19, "User_Mention": "narendramodi", "User_Mentioning_User_Mention": "JugalKhetan"}]
+
+JSON for query-2
+
+[{"count": 5, "Tweet_id_of_tweet_posted_by_user1": ["961750434103705600", "961750434103705600", "961750434103705600", "961750434103705600", "961750434103705600"], "User_Replying_to_this_Tweet": "EfRakesh", "Tweet_id_of_the_replies": ["961751163233169408", "961750944789622784", "961751086519349248", "961751262411698176", "961750850153541633"], "User1": "SrBachchan"}, {"count": 2, "Tweet_id_of_tweet_posted_by_user1": ["961750434103705600", "961750434103705600"], "User_Replying_to_this_Tweet": "NadkarAmit", "Tweet_id_of_the_replies": ["961751009784573952", "961750665151172608"], "User1": "SrBachchan"}, {"count": 2, "Tweet_id_of_tweet_posted_by_user1": ["961750434103705600", "961750434103705600"], "User_Replying_to_this_Tweet": "joshuadavid_uk", "Tweet_id_of_the_replies": ["961750723229880320", "961750670616481798"], "User1": "SrBachchan"}, {"count": 2, "Tweet_id_of_tweet_posted_by_user1": ["961750434103705600", "961750434103705600"], "User_Replying_to_this_Tweet": "vishal9815", "Tweet_id_of_the_replies": ["961751471678279680", "961750970442158082"], "User1": "SrBachchan"}, {"count": 2, "Tweet_id_of_tweet_posted_by_user1": ["961750434103705600", "961750434103705600"], "User_Replying_to_this_Tweet": "abha0276", "Tweet_id_of_the_replies": ["961750549560483840", "961750513955024897"], "User1": "SrBachchan"}]
